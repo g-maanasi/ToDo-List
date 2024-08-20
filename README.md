@@ -1,3 +1,7 @@
+# To Do List
+
+This project is a To Do list that allows the user to add to-do items.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
