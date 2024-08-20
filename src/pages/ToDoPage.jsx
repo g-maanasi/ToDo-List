@@ -1,10 +1,23 @@
-import { Box, Typography, TextField } from "@mui/material";
+import { Box, Typography, TextField, Divider } from "@mui/material";
 
 const ToDoPage = () => {
   return (
-    <Box>
-      <Typography variant="head1">To Do List</Typography>
-      <TextField />
+    <Box sx={{
+      display: 'flex',
+      flexDirection: 'column',
+      height: '100%',
+      width: '100%',
+    }}>
+      <Box sx={{ alignItems: 'center', width: '50%'}}>
+        <Typography variant="h4">Your Task List</Typography>
+        <Divider orientation="horizontal" flexItem sx={{ mb: '1rem' }}/>
+        <TextField
+            id="outlined-multiline-flexible"
+            label="Enter a task"
+            multiline
+            maxRows={4}
+          />
+      </Box>
     </Box>
   );
 };
