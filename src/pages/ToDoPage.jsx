@@ -1,7 +1,12 @@
-const ToDoPage = () => {
-    return (
-        <></>
-    )
-}
+import { Box, Typography, TextField } from "@mui/material";
 
-export default ToDoPage
+const ToDoPage = () => {
+  return (
+    <Box>
+      <Typography variant="head1">To Do List</Typography>
+      <TextField />
+    </Box>
+  );
+};
+
+export default ToDoPage;
